@@ -1,0 +1,14 @@
+{% for obj in type_list %}
+
+
+<a href = "{% url 'blog:detail' obj.id  %}" > {{obj.title}} </a> <br>
+{% endfor %}
+
+
+
+
+
+{% include "blog/detail.html" %}
+
+
+

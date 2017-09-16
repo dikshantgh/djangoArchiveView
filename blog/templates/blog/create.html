@@ -1,0 +1,30 @@
+<center>>Home</center>
+
+
+<html>
+ <h3>Create:</h3>
+<form action=''  method='POST'>
+{% csrf_token %}
+{% for field in form %}
+  <div>
+     
+  <label>{{ field.label_tag }}</label>
+  </div>
+  <div>
+      {{ field }}
+
+  </div>
+
+{% endfor %}
+
+
+    <div>
+      <button type="submit">Save</button>
+    </div>
+  </div>
+</form>
+</html>
+
+
+ 
+
