@@ -1,0 +1,16 @@
+__pycache__/
+__init__.py
+__init__.pyc
+settings.pyc
+urls.pyc
+models.pyc
+views.pyc
+admin.pyc
+forms.pyc
+models.pyc
+.idea/
+.gitignore
+migrations/
+*.pyc
+
+media/
